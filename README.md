@@ -1,3 +1,77 @@
 # project
+# HTML
+🛠️ Technologies Used to Create a Video Playlist
+1. HTML (HyperText Markup Language)
+Creates the structure of the webpage
+Used to add:
+* Video player
+* Playlist items
+* Titles and text
+* <video> tag is used to play videos
+# CSS
+* Used for design and layout
+* Makes the playlist:
+*Background colors
+* Rounded corners
+* Hover effects
+* Improves the visual appearance
+  # program
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Playlist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+
+</header
+ <center>   <h1>video playlist</h1></center>
+
+<div class="container">
+
+    <!-- Main Video -->
+    <div class="main-video">
+        <video controls>
+            <source src="video1.mp4" type="video/mp4">
+        </video>
+        <h3>fish video</h3>
+    </div>
+
+    <!-- Playlist -->
+    <div class="playlist">
+        <div class="video-item">
+            <video muted>
+                <source src="video1.mp4" type="video/mp4">
+            </video>
+            <p>Video 1</p>
+        </div>
+
+        <div class="video-item">
+            <video muted>
+                <source src="video2.mp4" type="video/mp4">
+            </video>
+            <p>Video 2</p>
+        </div>
+
+        <div class="video-item">
+            <video muted>
+                <source src="video3.mp4" type="video/mp4">
+            </video>
+            <p>Video 3</p>
+        </div>
+    </div>
+
+</div>
+</div>
+
+</body>
+</html>
+
+
+</body>
+</html>
+
 # output
  https://dharshini302008r.github.io/project-7/
