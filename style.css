@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #020024, #090979, #000000);
+    color: white;
+}
+
+/* Main container */
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Main video */
+.main-video {
+    flex: 3;
+}
+
+.main-video video {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+
+.main-video h3 {
+    margin-top: 10px;
+}
+
+/* Playlist */
+.playlist {
+    flex: 1.3;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 15px;
+    overflow-y: auto;
+    height: 85vh;
+}
+
+/* Playlist item */
+.video-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.video-item video {
+    width: 120px;
+    height: 70px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.video-item p {
+    font-size: 14px;
+    align-self: center;
+}
+
+/* Hover effect */
+.video-item:hover {
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 10px;
+}
